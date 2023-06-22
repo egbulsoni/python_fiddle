@@ -1,0 +1,4 @@
+edu, Slytherin
+bob, Gryffindor
+david, Gryffindor
+draco, Slytherin

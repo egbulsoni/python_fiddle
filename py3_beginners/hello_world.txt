@@ -1,0 +1,21 @@
+"""
+# What other people will be using the program
+# How much interaction do you expect them to have with the application
+# How computer-literate you expect them to be
+# System, other software installed to be able to run your project
+# Wish list (what should your software do) = functional requirements
+# Story board
+# Compile user stories
+# Consider limitations, maintenance
+
+example
+
+Problem: Get the computer to output a message.
+Target Users: Me
+Target System: GNU/Linux
+Interface: Command-line
+Functional Requirements: Print out a message.
+User must be able to input some text.
+Testing: Simple run test - expecting a message to appear.
+Maintainer: <email>
+"""

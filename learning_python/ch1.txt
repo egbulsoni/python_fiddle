@@ -1,0 +1,20 @@
+# Six main reasons people choose python:
+# readability, portability, developer productivity, software quality,
+# support libraries and simple enjoyment
+
+# Name four companies or organizations using python today
+# IBM, HP, Google, Microsoft
+
+# Why might you not want to use python in an application?
+# low-level programming, might want to use C or C++
+
+# What can you do with python?
+# many things, from graphic animations to machine learning and automation
+
+# What's the significance of the Python import this statement?
+# It exibits "the zen of python" in the screen, 
+# otherwise known as the philosophy of python
+
+# Why does "spam" show up in so many Python examples in books and on the Web?
+# it's a reference to monty python, and those references are encouraged 
+# by the python community

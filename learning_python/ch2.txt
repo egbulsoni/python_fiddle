@@ -1,0 +1,19 @@
+# What is the python interpreter
+# the program which runs your python code
+
+# What is source code?
+# The code typed in human language saved into a text file with .py extension
+
+# What is byte code?
+# the lower-level form of your program after Python compiles it.
+
+# What is the PVM?
+# The python virtual machine is responsible for running your code
+
+# Name two variations on Python's standard execution model.
+# Psyco and pypy
+
+# How are CPython, Jython, and IronPython different
+# CPython is the standard implementation of the language. Jython and IronPython
+# implement Python programs for use in Java and .NET environments, respectively;
+# they are alternative compilers for Python.

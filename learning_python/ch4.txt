@@ -1,0 +1,7 @@
+# Four Python's core data types:
+# number, string, boolean, lists, tuples, files and sets
+# core because they constitute the types in which every type contains at least 1 of them
+# immutable are structures which can't have elements changed in place, such as tuples
+# sequences is a positionaly ordered collection of objects, such as lists, strings and tuples
+# mapping is a 1 to 1, or 1 to many relationship, in other words, associated values, such as dictionaries
+# polymorphism means many forms, it means that an operation (like a +) depends on the objects being operated on.

@@ -28,23 +28,26 @@ class Stack:
             self.top = self.top.next
             temp.next = None
             self.height -= 1
-            return temp
+            return temp.value
+        # raise Exception("IndexError")
         return None
+# my_stack = Stack(4)
+# my_stack.pop()
+# my_stack.pop()
 
-
-my_stack = Stack(4)
-
-my_stack.print_stack()
-
-my_stack.push(15)
-my_stack.push(3)
-my_stack.print_stack()
-
-my_s = Stack(3)
-my_s.push(32)
-my_s.print_stack()
-print('-----POPPIN\'------')
-print(my_s.pop())
-print(my_s.pop())
-print(my_s.pop())
-my_s.print_stack()
+# my_stack = Stack(4)
+#
+# my_stack.print_stack()
+#
+# my_stack.push(15)
+# my_stack.push(3)
+# my_stack.print_stack()
+#
+# my_s = Stack(3)
+# my_s.push(32)
+# my_s.print_stack()
+# print('-----POPPIN\'------')
+# print(my_s.pop())
+# print(my_s.pop())
+# print(my_s.pop())
+# my_s.print_stack()

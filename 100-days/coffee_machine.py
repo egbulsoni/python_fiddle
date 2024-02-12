@@ -43,26 +43,17 @@ class CoffeeMachine:
 
     def _withdraw_resources(self, coffee_type):
         if coffee_type == "cappuccino":
-            coffee_ready = self._withdraw_resources_for_cappuccino(self.REQUIRED_RESOURCES_FOR_CAPPUCCINO["water"],
-                                                                   self.REQUIRED_RESOURCES_FOR_CAPPUCCINO["milk"],
-                                                                   self.REQUIRED_RESOURCES_FOR_CAPPUCCINO["coffee"],
-                                                                   self.REQUIRED_RESOURCES_FOR_CAPPUCCINO["price"])
+            coffee_ready = self._withdraw_resources_for_cappuccino()
             return coffee_ready
         elif coffee_type == "latte":
-            coffee_ready = self._withdraw_resources_for_latte( self.REQUIRED_RESOURCES_FOR_LATTE["water"],
-                                                self.REQUIRED_RESOURCES_FOR_LATTE["milk"],
-                                                self.REQUIRED_RESOURCES_FOR_LATTE["coffee"],
-                                                self.REQUIRED_RESOURCES_FOR_LATTE["price"])
+            coffee_ready = self._withdraw_resources_for_latte()
             return coffee_ready
         elif coffee_type == "espresso":
-            coffee_ready = self._withdraw_resources_for_espresso(  self.REQUIRED_RESOURCES_FOR_ESPRESSO["water"],
-                                                    self.REQUIRED_RESOURCES_FOR_ESPRESSO["milk"],
-                                                    self.REQUIRED_RESOURCES_FOR_ESPRESSO["coffee"],
-                                                    self.REQUIRED_RESOURCES_FOR_ESPRESSO["price"])
+            coffee_ready = self._withdraw_resources_for_espresso()
             return coffee_ready
         return False
 
-    def _withdraw_resources_for_espresso(self, water, milk, coffee, money):
+    def _withdraw_resources_for_espresso(self):
         can_proceed = True
         # ingredients in order: (water, milk, coffee)
         if self.REQUIRED_RESOURCES_FOR_ESPRESSO["water"] > self.water:
@@ -86,7 +77,7 @@ class CoffeeMachine:
             return True
         return False
 
-    def _withdraw_resources_for_latte(self, water, milk, coffee, money):
+    def _withdraw_resources_for_latte(self):
         can_proceed = True
         # ingredients in order: (water, milk, coffee)
         if self.REQUIRED_RESOURCES_FOR_LATTE["water"] > self.water:
@@ -110,7 +101,7 @@ class CoffeeMachine:
             return True
         return False
 
-    def _withdraw_resources_for_cappuccino(self, water, milk, coffee, money):
+    def _withdraw_resources_for_cappuccino(self):
         can_proceed = True
         # ingredients in order: (water, milk, coffee)
         if self.REQUIRED_RESOURCES_FOR_CAPPUCCINO["water"] > self.water:

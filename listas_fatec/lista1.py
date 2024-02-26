@@ -121,7 +121,6 @@ else:
     print("Reprovado!")
 
 
-
 # Exercicio 19
 p1 = float(input("Quanto tirou na p1? "))
 quanto_de_nota_pra_fechar = (5 * 3 - p1) / 2

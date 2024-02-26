@@ -7,6 +7,7 @@ def recebe_valor_positivo():
             break
 
 # recebe_valor_positivo()
+# teste
 
 # Exercicio 2
 def smp():

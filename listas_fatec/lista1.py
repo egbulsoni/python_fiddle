@@ -41,7 +41,7 @@ x = float(input("Quanto eh X? "))
 y = float(input("Quanto eh Y? "))
 print(f"X^Y eh igual a: {math.pow(x,y)}")
 
-Exercicio 9
+# Exercicio 9
 
 
 # Exercicio 10
